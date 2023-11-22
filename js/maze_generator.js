@@ -10,7 +10,7 @@ class MazeCell {
     }
     reset() {
         this.visited = false;
-        this.walls.fill(true,0,3);
+        this.walls.fill(true);
     }
 }
 
